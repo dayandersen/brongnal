@@ -1510,6 +1510,7 @@ dependencies = [
  "futures",
  "prost",
  "protocol",
+ "rusqlite",
  "thiserror",
  "tokio",
  "tokio-stream",

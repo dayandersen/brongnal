@@ -9,6 +9,7 @@ use tonic_reflection::server::Builder;
 
 mod gossamer;
 mod memory_brongnal;
+mod sqlite_brongnal;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
